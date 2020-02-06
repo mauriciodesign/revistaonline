@@ -1,0 +1,11 @@
+.newsletter__group{
+    input, button{
+        border-width: 0;
+        font-size: $small;
+        padding: 5px 10px;
+    }
+    button{
+        background-color: $coral;
+        color: $white;
+    }
+}

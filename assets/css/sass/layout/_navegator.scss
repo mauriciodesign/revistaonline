@@ -1,0 +1,50 @@
+.nav-container{
+    width: 100%;
+    padding: 10px;
+    @include border-bottom($grey);
+    margin-bottom: 15px;
+    
+    .nav__center {
+        width: 90%;
+        margin: 0 auto;
+        text-align: right;
+        padding: 10px 0;
+    }
+        
+    .nav__logo {
+        font-size: $large;
+        font-weight: $bold;
+        text-transform: uppercase;
+        text-align: left;
+    }
+}
+
+.nav__items{
+    margin: 0;
+    .nav__item{
+        list-style: none;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: $bold;
+        }
+    }
+    .nav__item-none{
+        display: none;
+    }
+    .nav__input {
+        border-radius: 30px;
+        padding: 3px;
+    }
+}
+
+
+
+@media only screen and (min-width: 576px) {
+    .nav__items{
+        .nav__item-none{
+            display: inline-block;
+        }
+    }
+}

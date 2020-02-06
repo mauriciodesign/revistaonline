@@ -1,0 +1,18 @@
+
+.main-content{
+    width: 90%;
+    margin: 0 auto 60px auto;
+    .news {
+        display: inline-block;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .news__title{
+        margin-bottom: 15px;
+    }
+    
+    .news__description {
+        padding: 10px 0;
+        font-size: $smallm;
+    }
+}
