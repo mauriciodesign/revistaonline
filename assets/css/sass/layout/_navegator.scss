@@ -1,5 +1,6 @@
+/* navegation */ 
+
 .nav-container{
-    width: 100%;
     padding: 10px;
     @include border-bottom($grey);
     margin-bottom: 15px;
@@ -9,6 +10,7 @@
         margin: 0 auto;
         text-align: right;
         padding: 10px 0;
+        align-items: center;
     }
         
     .nav__logo {

@@ -1,3 +1,5 @@
+/* buttons */ 
+
 .newsletter__group{
     input, button{
         border-width: 0;
@@ -7,5 +9,6 @@
     button{
         background-color: $coral;
         color: $white;
+        cursor: pointer;
     }
 }

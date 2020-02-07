@@ -1,25 +1,28 @@
+/* aside */ 
+
 .aside-container {
     display: none;
     
     .aside__content {
-        width: 100%;
         @include border-bottom($grey);
     }
 }
 
 .aside__tags {
-    @include border-bottom($grey);    
+    @include border-bottom($grey);
+    padding-bottom: 10px;   
     .tags__items {
         list-style: none;
         text-align: right;
+        margin: 0;
     }
     
     .tags__item {
         padding: 2px 4px;
         background-color: $blue;
-        margin-right: 1px;
         color: $white;
         display: inline-block;
+        margin: 5px 2px;
     }
 }
 
@@ -27,9 +30,9 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     .aside-container {
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 30px;
     }
 }
